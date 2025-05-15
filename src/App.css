@@ -1,0 +1,39 @@
+.HeaderSection {
+    height: 400px;
+    max-width: 800px;
+    text-align: center;
+    align-content: center;
+    justify-self: center;
+    color: white;
+}
+
+.Title {
+    color: white;
+    align-self: center;
+    font-size: 45px;
+    text-align: center;
+}
+
+.PersonalDescription {
+    justify-self: center;
+    font-size: large;
+    max-width: 700px;
+}
+
+div#root {
+    background-color: #272626;
+}
+
+.projectSection {
+    padding: 50px 100px;
+    background-color: #454545;
+}
+
+.projectCards {
+    margin-top: 50px;
+    gap: 50px;
+    row-gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
