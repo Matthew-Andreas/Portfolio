@@ -37,3 +37,21 @@ div#root {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+.skillSection {
+    padding: 50px 100px;
+}
+
+.skills {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    row-gap: 50px;
+    justify-content: space-evenly;
+}
+
+.techExperience {
+    padding: 50px 100px;
+    background-color: #454545;
+}

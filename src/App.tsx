@@ -1,5 +1,6 @@
 import "./App.css";
 import ProjectCard from "./componets/ProjectCard";
+import Skill from "./componets/Skill";
 
 const App = () => {
   return (
@@ -25,7 +26,22 @@ const App = () => {
       </div>
       <div className="skillSection">
         <h1 className="Title">Skills</h1>
-        <div className="skills"></div>
+        <div className="skills">
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+          <Skill />
+        </div>
+      </div>
+      <div className="techExperience">
+        <h1 className="Title">Technical Experience</h1>
+        <div className="Experience"></div>
       </div>
     </>
   );
