@@ -1,6 +1,5 @@
 .HeaderSection {
-    height: 400px;
-    max-width: 800px;
+    height: 300px;
     text-align: center;
     align-content: center;
     justify-self: center;
@@ -51,7 +50,26 @@ div#root {
     justify-content: space-evenly;
 }
 
-.techExperience {
+.techExperienceSection {
     padding: 50px 100px;
     background-color: #454545;
+}
+
+.Experiences {
+    justify-self: center;
+}
+
+.contactMeSection {
+    padding: 50px 100px;
+    justify-self: center;
+}
+
+@media (max-width: 550px) {
+    .projectSection {
+        padding: 50px 0px;
+    }
+
+    .contactMeSection {
+        padding: 50px 0px;
+    }
 }

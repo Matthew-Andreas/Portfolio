@@ -1,4 +1,6 @@
 import "./App.css";
+import Contact from "./componets/Contact";
+import ExperienceCard from "./componets/ExperienceCard";
 import ProjectCard from "./componets/ProjectCard";
 import Skill from "./componets/Skill";
 
@@ -39,9 +41,17 @@ const App = () => {
           <Skill />
         </div>
       </div>
-      <div className="techExperience">
+      <div className="techExperienceSection">
         <h1 className="Title">Technical Experience</h1>
-        <div className="Experience"></div>
+        <div className="Experiences">
+          <ExperienceCard />
+        </div>
+      </div>
+      <div className="contactMeSection">
+        <h1 className="Title">Contact Me</h1>
+        <Contact />
+        <Contact />
+        <Contact />
       </div>
     </>
   );

@@ -1,0 +1,13 @@
+.contactOption {
+    display: flex;
+    margin-top: 50px;
+}
+
+.contactOptionImage {
+    width: 50px;
+}
+
+.contactOptionLink {
+    margin-left: 100px;
+    align-self: center;
+}

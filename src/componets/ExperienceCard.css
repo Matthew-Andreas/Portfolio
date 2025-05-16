@@ -1,0 +1,35 @@
+.experienceCard {
+    background-color: white;
+    padding: 5px 25px;
+    border-radius: 25px;
+    margin-top: 50px;
+    min-height: 300px;
+    max-width: 1300px;
+}
+
+.experienceHeader {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: space-between;
+}
+
+.experienceTime {
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.experienceTitle {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.jobTitle {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.companyLogo {
+    width: 125px;
+}
