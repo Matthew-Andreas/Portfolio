@@ -17,7 +17,9 @@ const ProjectCard = ({
     <>
       <div className="projectCard">
         <p className="timeFrame">{TimeFrame}</p>
-        <h2 className="projectTitle">{ProjectTitle}</h2>
+        <div className="projectTitleBox">
+          <h2 className="projectTitle">{ProjectTitle}</h2>
+        </div>
         <img className="projectImg" src={ImageSrc} alt="" />
         <p>{ShortDes}</p>
       </div>

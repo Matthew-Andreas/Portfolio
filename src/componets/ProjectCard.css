@@ -10,6 +10,13 @@
 
 .projectTitle {
     text-align: center;
+    width: 350PX;
+}
+
+.projectTitleBox {
+    display: flex;
+    height: 80px;
+    align-items: center;
 }
 
 .timeFrame {
@@ -19,7 +26,9 @@
 
 .projectImg {
     max-width: 450px;
+    max-height: 250px;
     margin: 25px 0px;
+    border-radius: 25px;
 }
 
 @media (max-width:750px) {
