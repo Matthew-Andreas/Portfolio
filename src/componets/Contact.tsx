@@ -1,11 +1,17 @@
 import "./Contact.css";
 
-const Contact = () => {
+interface Props {
+  ImageSrc: string;
+  LinkHref: string;
+  ContactOption: string;
+}
+
+const Contact = ({ ImageSrc, LinkHref, ContactOption }: Props) => {
   return (
     <div className="contactOption">
-      <img className="contactOptionImage" src="./email.png" alt="" />
-      <a className="contactOptionLink" href="mailto:matthew66andreas@gmail.com">
-        matthew66andreas@gmail.com
+      <img className="contactOptionImage" src={ImageSrc} alt="" />
+      <a className="contactOptionLink" href={LinkHref}>
+        {ContactOption}
       </a>
     </div>
   );

@@ -1,13 +1,25 @@
 import "./ProjectCard.css";
 
-const ProjectCard = () => {
+interface Props {
+  TimeFrame: string;
+  ProjectTitle: string;
+  ImageSrc: string;
+  ShortDes: string;
+}
+
+const ProjectCard = ({
+  TimeFrame,
+  ProjectTitle,
+  ImageSrc,
+  ShortDes,
+}: Props) => {
   return (
     <>
       <div className="projectCard">
-        <p className="timeFrame">January 27, 2025 - May 2, 2025</p>
-        <h2 className="projectTitle">ApprAIse</h2>
-        <img className="projectImg" src="./ApprAIseImg.png" alt="" />
-        <p>Short Description</p>
+        <p className="timeFrame">{TimeFrame}</p>
+        <h2 className="projectTitle">{ProjectTitle}</h2>
+        <img className="projectImg" src={ImageSrc} alt="" />
+        <p>{ShortDes}</p>
       </div>
     </>
   );

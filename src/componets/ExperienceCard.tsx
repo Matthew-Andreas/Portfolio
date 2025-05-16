@@ -1,20 +1,32 @@
 import "./ExperienceCard.css";
 
-const ExperienceCard = () => {
+interface Props {
+  ImageSrc: string;
+  CompanyName: string;
+  JobTitle: string;
+  ExperienceTime: string;
+  ShortDes: string;
+}
+
+const ExperienceCard = ({
+  ImageSrc,
+  CompanyName,
+  JobTitle,
+  ExperienceTime,
+  ShortDes,
+}: Props) => {
   return (
     <>
       <div className="experienceCard">
         <div className="experienceHeader">
-          <img className="companyLogo" src="./Logo-navy (2).png" alt="" />
+          <img className="companyLogo" src={ImageSrc} alt="" />
           <div>
-            <h1 className="experienceTitle">ONE Project - CSUSM</h1>
-            <p className="jobTitle">Full-Stack Developer</p>
+            <h1 className="experienceTitle">{CompanyName}</h1>
+            <p className="jobTitle">{JobTitle}</p>
           </div>
-          <p className="experienceTime">May 27, 2024 - September 19,2024</p>
+          <p className="experienceTime">{ExperienceTime}</p>
         </div>
-        <p className="experienceDesc">
-          Short Desciption of what I did and what the website was for
-        </p>
+        <p className="experienceDesc">{ShortDes}</p>
       </div>
     </>
   );

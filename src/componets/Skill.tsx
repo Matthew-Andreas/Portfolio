@@ -1,11 +1,16 @@
 import "./Skill.css";
 
-const Skill = () => {
+interface Props {
+  ImageSrc: string;
+  SkillName: string;
+}
+
+const Skill = ({ ImageSrc, SkillName }: Props) => {
   return (
     <>
       <div className="skillBlock">
-        <img className="skillImg" src="./cPlusPlus.png" alt="" />
-        <p className="skillName">C++</p>
+        <img className="skillImg" src={ImageSrc} alt="" />
+        <p className="skillName">{SkillName}</p>
       </div>
     </>
   );
