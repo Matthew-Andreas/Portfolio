@@ -6,6 +6,7 @@ interface Props {
   JobTitle: string;
   ExperienceTime: string;
   ShortDes: string;
+  WorkLink: string;
 }
 
 const ExperienceCard = ({
@@ -14,20 +15,27 @@ const ExperienceCard = ({
   JobTitle,
   ExperienceTime,
   ShortDes,
+  WorkLink,
 }: Props) => {
   return (
     <>
-      <div className="experienceCard">
-        <div className="experienceHeader">
-          <img className="companyLogo" src={ImageSrc} alt="" />
-          <div>
-            <h1 className="experienceTitle">{CompanyName}</h1>
-            <p className="jobTitle">{JobTitle}</p>
+      <a className="workLink" href={WorkLink}>
+        <div className="experienceCard">
+          <div className="experienceHeader">
+            <img className="companyLogo" src={ImageSrc} alt="" />
+            <div>
+              <h1 className="experienceTitle">{CompanyName}</h1>
+              <p className="jobTitle">{JobTitle}</p>
+            </div>
+            <p className="experienceTime">{ExperienceTime}</p>
           </div>
-          <p className="experienceTime">{ExperienceTime}</p>
+          <p className="experienceDesc">{ShortDes}</p>
+          <div className="learnMore">
+            <p>Learn More</p>
+            <img src="./Arrow.png" alt="" />
+          </div>
         </div>
-        <p className="experienceDesc">{ShortDes}</p>
-      </div>
+      </a>
     </>
   );
 };

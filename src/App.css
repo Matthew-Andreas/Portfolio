@@ -26,6 +26,7 @@ div#root {
 .projectSection {
     padding: 50px 100px;
     background-color: #454545;
+    padding-bottom: 100px;
 }
 
 .projectCards {
@@ -39,6 +40,7 @@ div#root {
 
 .skillSection {
     padding: 50px 100px;
+    padding-bottom: 100px;
 }
 
 .skills {
@@ -52,6 +54,7 @@ div#root {
 
 .techExperienceSection {
     padding: 50px 100px;
+    padding-bottom: 100px;
     background-color: #454545;
 }
 

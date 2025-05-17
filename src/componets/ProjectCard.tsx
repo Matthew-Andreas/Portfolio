@@ -5,6 +5,7 @@ interface Props {
   ProjectTitle: string;
   ImageSrc: string;
   ShortDes: string;
+  ProjectLink: string;
 }
 
 const ProjectCard = ({
@@ -12,17 +13,24 @@ const ProjectCard = ({
   ProjectTitle,
   ImageSrc,
   ShortDes,
+  ProjectLink,
 }: Props) => {
   return (
     <>
-      <div className="projectCard">
-        <p className="timeFrame">{TimeFrame}</p>
-        <div className="projectTitleBox">
-          <h2 className="projectTitle">{ProjectTitle}</h2>
+      <a className="projectLink" href={ProjectLink}>
+        <div className="projectCard">
+          <p className="timeFrame">{TimeFrame}</p>
+          <div className="projectTitleBox">
+            <h2 className="projectTitle">{ProjectTitle}</h2>
+          </div>
+          <img className="projectImg" src={ImageSrc} alt="" />
+          <p className="shortDes">{ShortDes}</p>
+          <div className="learnMoreP">
+            <p>Learn More</p>
+            <img src="./Arrow.png" alt="" />
+          </div>
         </div>
-        <img className="projectImg" src={ImageSrc} alt="" />
-        <p>{ShortDes}</p>
-      </div>
+      </a>
     </>
   );
 };
