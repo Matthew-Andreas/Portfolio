@@ -1,12 +1,11 @@
 {
-  "homepage": "http://Matthew-Andreas.github.io/MatthewAndreas.github.io",
+  "homepage": "https://Matthew-Andreas.github.io/",
   "name": "matthew-andreas-portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "react-scripts start",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
