@@ -22,7 +22,7 @@ const App = () => {
             TimeFrame="May 14, 2025 - Present"
             ProjectTitle="Portfolio Website"
             ImageSrc="./PortfolioImg.png"
-            ShortDes="This was a short project which you are looking at the results of right now. 
+            ShortDes="This CHANGE was a short project which you are looking at the results of right now. 
             I wanted a website to showcase my current and previous projects, skills, and technical work experience.
             This would help to showcase my skills to future employers as well as show me where I have come from."
             ProjectLink="https://github.com/Matthew-Andreas/MatthewAndreas.github.io"
