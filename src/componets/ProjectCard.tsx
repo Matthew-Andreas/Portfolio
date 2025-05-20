@@ -27,7 +27,7 @@ const ProjectCard = ({
           <p className="shortDes">{ShortDes}</p>
           <div className="learnMoreP">
             <p>Learn More</p>
-            <img src="./Portfolio/Arrow.png" alt="" />
+            <img src="./Arrow.png" alt="" />
           </div>
         </div>
       </a>
