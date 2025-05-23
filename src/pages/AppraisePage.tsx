@@ -62,7 +62,7 @@ const AppraisePage = () => {
         <div className="aboutText">
           <h1>Services</h1>
           <p>
-            Our website has 6 main services that we porvide for our users. Below
+            Our website has 6 main services that we provide for our users. Below
             we will go through each service in detail.
           </p>
         </div>
@@ -92,7 +92,11 @@ const AppraisePage = () => {
             others like it since a user is able to input an image from their own
             dataset and see how a chosen model will respond. For this example
             image we can see that it reponds pretty well giving chimpanzee a
-            confidence of close to 90% which is the correct prediction.
+            confidence of close to 90% which is the correct prediction. To
+            inferernce an image the user must make an account on our website and
+            enter their QAI_hub API token from their own Qualcomm AI Hub
+            account. This will allow the website to run an inference job through
+            the users account without them having to code a single thing.
           </p>
         </div>
         <img className="aboutImg" src="./ApprAIseInference.png" alt="" />
@@ -140,14 +144,33 @@ const AppraisePage = () => {
       <div className="about right">
         <div className="aboutText">
           <h1>Leaderboard</h1>
-          <p>Short Description</p>
+          <p>
+            This is the Leaderboard page which is the main focus of what this
+            website is supposed to be about. As you can see we have filters
+            which allow th user to change what information is shown on the graph
+            and table. The user can choose which device and library they would
+            like for the models to run on and then what metric they would like
+            to sort the benchmarks by. Then the user can view the information in
+            a graph of the top 3 models in that category or see all the models
+            and their metrics in order by rank in that category. This allows the
+            user to view the information in whichever way they like to find the
+            right model for them.
+          </p>
         </div>
         <img className="aboutImg" src="./ApprAIseLeaderboardImg.png" alt="" />
       </div>
       <div className="about left">
         <div className="aboutText">
-          <h1>Catalog</h1>
-          <p>Short Description</p>
+          <h1>Comparison</h1>
+          <p>
+            This is the Comparison page where a user can compare up to 3
+            different models and see how they stack up against one another. The
+            user is able to choose 3 models and each model can use their own
+            combinations of library and device so you can see the metrics you
+            want to see. There is also a button under each model selection that
+            can take the user directly to the model's page so they can learn
+            more about their favorite model.
+          </p>
         </div>
         <div>
           <img className="aboutImg" src="./ApprAIseComparisonTop.png" alt="" />
