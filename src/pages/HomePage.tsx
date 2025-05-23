@@ -51,7 +51,7 @@ const HomePage = () => {
             ShortDes="This was an image classification(IC) AI model benchmarking website that was done in cooperation with Qualcomm.
             This website would allow the user to compare different IC models to find the best fit for their upcoming projects.
             This website was unique as it allowed the user to input their own image to be classified by a selection of models directly on the website."
-            ProjectLink="/Portfolio/#/ApprAIse"
+            ProjectLink="/#/ApprAIse"
           />
 
           <ProjectCard

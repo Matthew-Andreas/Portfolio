@@ -42,7 +42,8 @@ const AppraisePage = () => {
             see before you. Our project was pruposed by our mentor since there
             are many other websites that show some of these metrics but in very
             bland and confusing ways. So our job was to build a easily
-            navigateable website that looked appealing to the eye.
+            navigateable website that looked appealing to the eye both on
+            computer and mobile devices.
           </p>
           <p>
             My groups project was to build a benchmarking website for AI image
@@ -56,7 +57,9 @@ const AppraisePage = () => {
             right balance between speed, memory, and accuracy.
           </p>
         </div>
-        <img className="aboutImg" src="./AppAIseFrontPage.png" alt="" />
+        <div className="ImgContainer">
+          <img className="aboutImg" src="./AppAIseFrontPage.png" alt="" />
+        </div>
       </div>
       <div className="about left">
         <div className="aboutText">
@@ -66,7 +69,9 @@ const AppraisePage = () => {
             we will go through each service in detail.
           </p>
         </div>
-        <img className="aboutImg" src="./ApprAIseServices.png" alt="" />
+        <div className="ImgContainer">
+          <img className="aboutImg" src="./ApprAIseServices.png" alt="" />
+        </div>
       </div>
       <div className="about right">
         <div className="aboutText">
@@ -80,7 +85,9 @@ const AppraisePage = () => {
             information.
           </p>
         </div>
-        <img className="aboutImg" src="./ApprAIseCustomization.png" alt="" />
+        <div className="ImgContainer">
+          <img className="aboutImg" src="./ApprAIseCustomization.png" alt="" />
+        </div>
       </div>
       <div className="about left">
         <div className="aboutText">
@@ -99,7 +106,9 @@ const AppraisePage = () => {
             the users account without them having to code a single thing.
           </p>
         </div>
-        <img className="aboutImg" src="./ApprAIseInference.png" alt="" />
+        <div className="ImgContainer">
+          <img className="aboutImg" src="./ApprAIseInference.png" alt="" />
+        </div>
       </div>
       <div className="about right">
         <div className="aboutText">
@@ -119,7 +128,9 @@ const AppraisePage = () => {
             a model.
           </p>
         </div>
-        <img className="aboutImg" src="./ApprAIseModels.png" alt="" />
+        <div className="ImgContainer">
+          <img className="aboutImg" src="./ApprAIseModels.png" alt="" />
+        </div>
       </div>
       <div className="about left">
         <div className="aboutText">
@@ -136,7 +147,7 @@ const AppraisePage = () => {
             got some of the information.
           </p>
         </div>
-        <div>
+        <div className="ImgContainer">
           <img className="aboutImg" src="./ApprAIseModelTop.png" alt="" />
           <img className="aboutImg" src="./ApprAIseModelBottom.png" alt="" />
         </div>
@@ -157,7 +168,9 @@ const AppraisePage = () => {
             right model for them.
           </p>
         </div>
-        <img className="aboutImg" src="./ApprAIseLeaderboardImg.png" alt="" />
+        <div className="ImgContainer">
+          <img className="aboutImg" src="./ApprAIseLeaderboardImg.png" alt="" />
+        </div>
       </div>
       <div className="about left">
         <div className="aboutText">
@@ -169,16 +182,38 @@ const AppraisePage = () => {
             combinations of library and device so you can see the metrics you
             want to see. There is also a button under each model selection that
             can take the user directly to the model's page so they can learn
-            more about their favorite model.
+            more about their favorite model. The first way the user can see to
+            compare the models is in charts which gives the user a visual method
+            of comparing these different models. Then the user can go down an
+            see all the numerical values for each model down in the metrics
+            section where the best out of the 3 models is highlighted in each
+            category. Lastly at the bottom you can see a few technical details
+            about each model.
           </p>
         </div>
-        <div>
+        <div className="ImgContainer">
           <img className="aboutImg" src="./ApprAIseComparisonTop.png" alt="" />
           <img
             className="aboutImg"
             src="./ApprAIseComparisonBottom.png"
             alt=""
           />
+        </div>
+      </div>
+      <div className="about right">
+        <div className="aboutText">
+          <h1>Code and Paper</h1>
+          <p>
+            This is the code and paper page which allows the user to get to all
+            of the different papers and code for this model. We added this so
+            that if you wanted to go into more detail on multiple models you
+            could do it all in one place. Each model has a page on Qualcomm's AI
+            hub, a GitHub, a Hugging Face page, and a research paper so the user
+            can get all they need about a given model.
+          </p>
+        </div>
+        <div className="ImgContainer">
+          <img className="aboutImg" src="./ApprAIseCaP.png" alt="" />
         </div>
       </div>
     </div>
