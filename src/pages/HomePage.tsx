@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
       <div className="HeaderSection">
-        <h1 className="Title">Matthew Andreas - Software Engineer</h1>
+        <h1 className="Title Site">Matthew Andreas - Software Engineer</h1>
         <p className="PersonalDescription">
           I am a highly resourceful software engineer who has a lot of interest
           in Game Development, Computer Vision, Robotics, and Full-Stack
@@ -29,7 +29,7 @@ const HomePage = () => {
           <ProjectCard
             TimeFrame="March 10, 2025 - May 10, 2025"
             ProjectTitle="Fire and Smoke Detection with YOLO"
-            ImageSrc="./DeepLearning.png"
+            ImageSrc="./DeepLearning2.png"
             ShortDes="This was a project where my group found a research paper and implemented their research, as well as other alternative methods. 
             We decided to work with a paper using YOLOv8 to do smoke and fire detection. 
             The two alternative methods we proposed were transfer learning on YOLOv8 and using YOLO12 to get better scores."
@@ -66,7 +66,7 @@ const HomePage = () => {
           <ProjectCard
             TimeFrame="June 3, 2024 - August 23, 2024"
             ProjectTitle="ONE Project"
-            ImageSrc="./OneProject.png"
+            ImageSrc="./OneProject2.png"
             ShortDes="This project was an internship where we built a website and database from scratch.
             This project's focus was to build a website full of entrepreneurial resources and display it in an easily navigable webpage.
             We created a table that displayed all of these resources in one place and provided a filter system so the user could find exactly the resource they were looking for."

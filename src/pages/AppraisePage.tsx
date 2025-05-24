@@ -136,10 +136,10 @@ const AppraisePage = () => {
         <div className="aboutText">
           <h1>Model</h1>
           <p>
-            This is the model page which is unquie for all of our models. This
-            page allows for users to get a more detailed look at the model they
-            want to use for their project. This page has a description as well
-            as all the combinations of device and library results for each
+            This is the model page which is unquie for each one of our models.
+            This page allows for users to get a more detailed look at the model
+            they want to use for their project. This page has a description as
+            well as all the combinations of device and library results for each
             model. Towards the bottom there are more details such as Technical
             details, Applicable Scenarios, Supported Form Factors and Licenses.
             At the very bottom we have links that the user can use to learn more
@@ -214,6 +214,23 @@ const AppraisePage = () => {
         </div>
         <div className="ImgContainer">
           <img className="aboutImg" src="./ApprAIseCaP.png" alt="" />
+        </div>
+      </div>
+      <div className="VideoDemo">
+        <h1 className="Title">Video Demo</h1>
+        <div className="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/qHBWQcA3LME?si=JiQLHXaxG-0D0FdN"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            className="Video"
+          ></iframe>
+        </div>
+        <div className="links">
+          <a href="https://github.com/adoante/apprAIse/tree/main">GitHub</a>
         </div>
       </div>
     </div>

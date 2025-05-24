@@ -1,14 +1,15 @@
 .projectLink {
     text-decoration: none;
     color: #000000;
+    align-items: center;
 }
 
 
 .projectCard {
     position: relative;
     height: 800px;
-    max-width: 500px;
-    min-width: 500px;
+    max-width: 650px;
+    /*min-width: 500px;*/
     padding: 25px;
     background-color: #ffffff;
     border-radius: 25px;
@@ -25,7 +26,7 @@
 
 .projectTitle {
     text-align: center;
-    width: 350PX;
+    /*width: 350PX;*/
 }
 
 .projectTitleBox {
@@ -42,6 +43,8 @@
 .projectImg {
     max-width: 450px;
     max-height: 250px;
+    width: 100%;
+    height: auto;
     margin: 25px 0px;
     border-radius: 25px;
 }
@@ -49,7 +52,11 @@
 .shortDes {
     color: #000000;
     font-size: 18px;
-    width: 350px;
+    padding: 0px 25px;
+    max-width: 450px;
+    margin-bottom: 0;
+    text-align: center;
+    /*width: 350px;*/
 }
 
 .learnMoreP {
@@ -74,6 +81,6 @@
     }
 
     .projectImg {
-        width: 250px;
+        /* width: 250px;*/
     }
 }
