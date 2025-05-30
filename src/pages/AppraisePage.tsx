@@ -1,10 +1,25 @@
+import NavBar from "../componets/NavBar";
 import Skill from "../componets/Skill";
 import "./Appraise.css";
+import { useEffect } from "react";
 
 const AppraisePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
-      <div className="header">
+      <NavBar
+        navItems={[
+          "Description",
+          "Technologies Used",
+          "About",
+          "Video Demo",
+          "Links",
+        ]}
+      />
+      <div id="Description" className="header">
         <div className="headerText">
           <h1>ApprAIse</h1>
           <p>
@@ -18,7 +33,7 @@ const AppraisePage = () => {
         </div>
         <img className="headerImg" src="./ApprAIseImg.png" alt="" />
       </div>
-      <div className="techUsed">
+      <div id="Technologies Used" className="techUsed">
         <h1>Technologies Used</h1>
         <div className="skills">
           <Skill ImageSrc="html.png" SkillName="HTML" />
@@ -31,7 +46,7 @@ const AppraisePage = () => {
           <Skill ImageSrc="Docker.webp" SkillName="Docker" />
         </div>
       </div>
-      <div className="about right">
+      <div id="About" className="about right">
         <div className="aboutText">
           <h1>About This Project</h1>
           <p>
@@ -216,7 +231,7 @@ const AppraisePage = () => {
           <img className="aboutImg" src="./ApprAIseCaP.png" alt="" />
         </div>
       </div>
-      <div className="VideoDemo">
+      <div id="Video Demo" className="VideoDemo">
         <h1 className="Title">Video Demo</h1>
         <div className="video-wrapper">
           <iframe
@@ -229,8 +244,23 @@ const AppraisePage = () => {
             className="Video"
           ></iframe>
         </div>
-        <div className="links">
-          <a href="https://github.com/adoante/apprAIse/tree/main">GitHub</a>
+      </div>
+      <div id="Links" className="links">
+        <h1 className="Title">Links</h1>
+        <div className="btnSection">
+          <a
+            className="GithubBtn"
+            href="https://github.com/adoante/apprAIse/tree/main"
+          >
+            <img className="btnIcons" src="./github.png" alt="" />
+            <p className="btnText">GitHub</p>
+            <img className="btnIcons" src="./share.png" alt="" />
+          </a>
+          <a className="GithubBtn" href="https://appraise-benchmark.com/">
+            <img className="btnIcons" src="./Website.png" alt="" />
+            <p className="btnText">Website</p>
+            <img className="btnIcons" src="./share.png" alt="" />
+          </a>
         </div>
       </div>
     </div>

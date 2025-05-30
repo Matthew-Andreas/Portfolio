@@ -1,11 +1,13 @@
 import Contact from "../componets/Contact";
 import ExperienceCard from "../componets/ExperienceCard";
+import NavBar from "../componets/NavBar";
 import ProjectCard from "../componets/ProjectCard";
 import Skill from "../componets/Skill";
 
 const HomePage = () => {
   return (
     <>
+      <NavBar navItems={["Projects", "Skills", "Experience", "Contact"]} />
       <div className="HeaderSection">
         <h1 className="Title Site">Matthew Andreas - Software Engineer</h1>
         <p className="PersonalDescription">
@@ -14,7 +16,7 @@ const HomePage = () => {
           Development
         </p>
       </div>
-      <div className="projectSection">
+      <div id="Projects" className="projectSection">
         <h1 className="Title">Projects</h1>
         <div className="projectCards">
           <ProjectCard
@@ -74,7 +76,7 @@ const HomePage = () => {
           />
         </div>
       </div>
-      <div className="skillSection">
+      <div id="Skills" className="skillSection">
         <h1 className="Title">Skills</h1>
         <div className="skills">
           <Skill ImageSrc="./cPlusPlus.png" SkillName="C++" />
@@ -89,9 +91,10 @@ const HomePage = () => {
           <Skill ImageSrc="./React-icon.svg.png" SkillName="React" />
           <Skill ImageSrc="./git.png" SkillName="Git" />
           <Skill ImageSrc="./github.png" SkillName="GitHub" />
+          <Skill ImageSrc="./artificial-intelligence.png" SkillName="AI" />
         </div>
       </div>
-      <div className="techExperienceSection">
+      <div id="Experience" className="techExperienceSection">
         <h1 className="Title">Technical Experience</h1>
         <div className="Experiences">
           <ExperienceCard
@@ -108,7 +111,7 @@ const HomePage = () => {
           />
         </div>
       </div>
-      <div className="contactMeSection">
+      <div id="Contact" className="contactMeSection">
         <h1 className="Title">Contact Me</h1>
         <Contact
           ImageSrc="./email.png"
