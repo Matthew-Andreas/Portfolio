@@ -63,7 +63,7 @@ const HomePage = () => {
             ShortDes="This project was a short 2D game where you play as a dinosaur trying to escape an island with an active volcano before it erupts.
             This was my first experience bringing a game to completion, which was an amazing sight to see.
             For this project, we focus on getting a complete game and making it look like a real game."
-            ProjectLink="https://github.com/adoante/2D-Game"
+            ProjectLink="/#/RexRun"
           />
           <ProjectCard
             TimeFrame="June 3, 2024 - August 23, 2024"

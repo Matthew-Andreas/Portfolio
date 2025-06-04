@@ -21,6 +21,7 @@ html {
 .headerImg {
     max-width: 500px;
     min-width: 300px;
+    border-radius: 25px;
 }
 
 .techUsed {

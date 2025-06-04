@@ -250,7 +250,7 @@ const AppraisePage = () => {
         <div className="btnSection">
           <a
             className="GithubBtn"
-            href="https://github.com/adoante/apprAIse/tree/main"
+            href="https://github.com/Matthew-Andreas/ApprAIse"
           >
             <img className="btnIcons" src="./github.png" alt="" />
             <p className="btnText">GitHub</p>
