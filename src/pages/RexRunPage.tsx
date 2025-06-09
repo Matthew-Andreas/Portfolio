@@ -36,185 +36,170 @@ const RexRunPage = () => {
         <div className="aboutText">
           <h1>About This Project</h1>
           <p>
-            This project was a class project in my capstone class at university.
-            This class was given the amazing opprtunity to work with Qualcomm
-            employees in the computer vision department. These employees
-            mentored our projects and helped guide us to the amazing result you
-            see before you. Our project was pruposed by our mentor since there
-            are many other websites that show some of these metrics but in very
-            bland and confusing ways. So our job was to build a easily
-            navigateable website that looked appealing to the eye both on
-            computer and mobile devices.
+            This project was a class project in my Game Design class at
+            university. This class was given the task of building a 2D game from
+            scratch but you were allowed to use any premade assests you could
+            find. We scoured itch.io for different characters to base our game
+            on and then we found the{" "}
+            <a href="https://arks.itch.io/dino-characters">Dino Character</a>{" "}
+            pack which you can see on the left with 4 dinosaurs each with their
+            own sets of animations. This was an awesome find and we had decided
+            to make a 2D platformer with these characters.
           </p>
           <p>
-            My groups project was to build a benchmarking website for AI image
-            classifaction(IC) models that displays the models benchmarks in a
-            leaderboard. These benchmarks would contain 5 important metrics for
-            each model configuration which are top 1 accuracy, top 5 accuracy,
-            memory usage, inference time, and NPU layers. These 5 metrics would
-            allow a user of the site to see how each model perfromed while being
-            ran on different libraries and devcies. This would allow the user to
-            find the perfect model for their unqiue application and find the
-            right balance between speed, memory, and accuracy.
+            This was the beginning of the game called Rex Run where you play as
+            a dinosaur living on a small island with an active volcano that is
+            about to erupt. You race to finish quests and contracts to get
+            enough money to buy a boat and escape the island before the volcano
+            erupts. This is a 5 level 2D platformer where you can collect money
+            and quest items to buy upgrades with NPCs all in effort to get off
+            the island.
+          </p>
+        </div>
+        <div className="ImgContainer">
+          <img className="aboutImg" src="./test.gif" alt="" />
+        </div>
+      </div>
+      <div className="about left">
+        <div className="aboutText">
+          <h1>Main Hub</h1>
+          <p>
+            This is the main hub where you can talk to all the NPCs, choose
+            which level you would like to play, and at the end sail away from
+            the island. There are 3 NPCs in this area which are the chef, the
+            shopkeeper, and the Dock Worker. Each of these NPCs has a quest for
+            the player to complete and once their quest is completed the player
+            unlocks the upgrades the NPC sells.
           </p>
         </div>
         <div className="ImgContainer">
           <img className="aboutImg" src="./RRHub.png" alt="" />
         </div>
       </div>
-      <div className="about left">
-        <div className="aboutText">
-          <h1>Services</h1>
-          <p>
-            Our website has 6 main services that we provide for our users. Below
-            we will go through each service in detail.
-          </p>
-        </div>
-        <div className="ImgContainer">
-          <img className="aboutImg" src="./ApprAIseServices.png" alt="" />
-        </div>
-      </div>
       <div className="about right">
         <div className="aboutText">
-          <h1>Customization</h1>
+          <h1>Chef</h1>
           <p>
-            This is our customization page which allows the user to pick the
-            colors they would like for their charts and which chart type they
-            would like to see their data in. This was a really important feature
-            since it allows the user to see the data they need to see in a form
-            that is appealing to their eye and will help them understand the
-            information.
+            This is the Chef and his quest is to find him 4 mushrooms for his
+            signature mushroom and chicken dish. Once you go through the levels
+            and find his four mushrooms he will then allow you to buy some of
+            his dish which will increase your health by 10 with each purchase.
           </p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./ApprAIseCustomization.png" alt="" />
+          <img className="aboutImg" src="./RRChef.png" alt="" />
         </div>
       </div>
       <div className="about left">
         <div className="aboutText">
-          <h1>Inference</h1>
+          <h1>Shopkeeper</h1>
           <p>
-            This is the inference page where a user can inference an image of
-            their own in a selected model, library, and device to get the top 5
-            accuracy. This is a feature that really sets our website apart from
-            others like it since a user is able to input an image from their own
-            dataset and see how a chosen model will respond. For this example
-            image we can see that it reponds pretty well giving chimpanzee a
-            confidence of close to 90% which is the correct prediction. To
-            inferernce an image the user must make an account on our website and
-            enter their QAI_hub API token from their own Qualcomm AI Hub
-            account. This will allow the website to run an inference job through
-            the users account without them having to code a single thing.
+            This is the Shopkeeper and his quest is to find him 5 balloons for
+            his son's birthday party. Once you find all the balloons the
+            shopkeeper will let you buy two upgrades from him. The first is an
+            upgrade for tougher skin which will reduce the damage a player takes
+            when being hit by half. The second upgrade is a coin multiplier
+            which doubles the amount each coin is worth each time you buy it.
           </p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./ApprAIseInference.png" alt="" />
+          <img className="aboutImg" src="./RRShopKeeper.png" alt="" />
         </div>
       </div>
       <div className="about right">
         <div className="aboutText">
-          <h1>Catalog</h1>
+          <h1>Dock Worker</h1>
           <p>
-            This is the catalog/models page where all the models we have
-            benchmarks for are stored. This page was made so when you decided on
-            a model you liked the metrics for you could look it up and find more
-            information about it. We also provided filters that allowed the user
-            to see which models are usuable with different devices and
-            libraries. Another freature to help the users find a model they are
-            looking for is the the model percision filter which allows the user
-            to pick whether they want a quantized or floating point model and a
-            search feature which allow for users to filter down to specific
-            models. Each of these model cards leads to a page deticated to each
-            model which has a lot more information that a user could learn about
-            a model.
+            This is the Dock Worker and his quest is to find 6 fish for his
+            stew. Once you find all 6 fish the dock worker will let you to buy
+            the boat that will allow you to escape from the island and complete
+            the game.
           </p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./ApprAIseModels.png" alt="" />
+          <img className="aboutImg" src="./RRDockWorker.png" alt="" />
         </div>
       </div>
       <div className="about left">
         <div className="aboutText">
-          <h1>Model</h1>
+          <h1>Level 1</h1>
           <p>
-            This is the model page which is unquie for each one of our models.
-            This page allows for users to get a more detailed look at the model
-            they want to use for their project. This page has a description as
-            well as all the combinations of device and library results for each
-            model. Towards the bottom there are more details such as Technical
-            details, Applicable Scenarios, Supported Form Factors and Licenses.
-            At the very bottom we have links that the user can use to learn more
-            about the model as well as a link back to the Qualcomm page where we
-            got some of the information.
+            This is the first level the player can play and it is designed to be
+            nice and simple to let the player get a handle on the jumping,
+            avoiding obstacles, collecting coins, and collecting quest items.
+            This level contains 3 of the mushrooms for the chef's quest.
           </p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./ApprAIseModelTop.png" alt="" />
-          <img className="aboutImg" src="./ApprAIseModelBottom.png" alt="" />
+          <img className="aboutImg" src="./RRLevel1.png" alt="" />
         </div>
       </div>
       <div className="about right">
         <div className="aboutText">
-          <h1>Leaderboard</h1>
+          <h1>Level 2</h1>
           <p>
-            This is the Leaderboard page which is the main focus of what this
-            website is supposed to be about. As you can see we have filters
-            which allow th user to change what information is shown on the graph
-            and table. The user can choose which device and library they would
-            like for the models to run on and then what metric they would like
-            to sort the benchmarks by. Then the user can view the information in
-            a graph of the top 3 models in that category or see all the models
-            and their metrics in order by rank in that category. This allows the
-            user to view the information in whichever way they like to find the
-            right model for them.
+            This is the second level and for this level we decided to add more
+            player injurying obstacles as well as an underground area that the
+            player has to find the entrance to. We add the underground area to
+            show the player they will have to start searching the levels for the
+            quest items instead of just running through the level and coming
+            across them. This level contained the last mushroom for chef's quest
+            as well as the first two balloons from the shopkeeper's quest.
           </p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./ApprAIseLeaderboardImg.png" alt="" />
+          <img className="aboutImg" src="./RRLevel2.png" alt="" />
         </div>
       </div>
       <div className="about left">
         <div className="aboutText">
-          <h1>Comparison</h1>
+          <h1>Level 3</h1>
           <p>
-            This is the Comparison page where a user can compare up to 3
-            different models and see how they stack up against one another. The
-            user is able to choose 3 models and each model can use their own
-            combinations of library and device so you can see the metrics you
-            want to see. There is also a button under each model selection that
-            can take the user directly to the model's page so they can learn
-            more about their favorite model. The first way the user can see to
-            compare the models is in charts which gives the user a visual method
-            of comparing these different models. Then the user can go down an
-            see all the numerical values for each model down in the metrics
-            section where the best out of the 3 models is highlighted in each
-            category. Lastly at the bottom you can see a few technical details
-            about each model.
+            This is the third level and for this level as you can see there are
+            more hidden areas where quest items are becoming harder and harder
+            to find. This level pushes to have a lot of movement to add more
+            difficulty for the player and we did this by adding moving platforms
+            as well as moving fire columns. This means the player would have to
+            be really patient and careful as they move through the map. For
+            another increase in difficulty we added an insta kill pit which will
+            kill the player if they fall. This level contains the last 3
+            balloons for the shopkeeper's quest.
           </p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./ApprAIseComparisonTop.png" alt="" />
-          <img
-            className="aboutImg"
-            src="./ApprAIseComparisonBottom.png"
-            alt=""
-          />
+          <img className="aboutImg" src="./RRLevel3.png" alt="" />
         </div>
       </div>
       <div className="about right">
         <div className="aboutText">
-          <h1>Code and Paper</h1>
+          <h1>Level 4</h1>
           <p>
-            This is the code and paper page which allows the user to get to all
-            of the different papers and code for this model. We added this so
-            that if you wanted to go into more detail on multiple models you
-            could do it all in one place. Each model has a page on Qualcomm's AI
-            hub, a GitHub, a Hugging Face page, and a research paper so the user
-            can get all they need about a given model.
+            This is the fourth level and for this level we added some more
+            obstacles for the player to dodge. The main difference in this level
+            is that it has a secret room hiding underneath the exit. This secret
+            room has coins worth 10 and a fish for the dock worker's quest. This
+            level contains the first 3 fish for the dock worker's quest.
           </p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./ApprAIseCaP.png" alt="" />
+          <img className="aboutImg" src="./RRLevel4.png" alt="" />
+        </div>
+      </div>
+      <div className="about left">
+        <div className="aboutText">
+          <h1>Level 5</h1>
+          <p>
+            This is the last level and for this level a bit more difficult so we
+            added another instant death pit under some platforms. Then we
+            created a smoky part where a player has to be very observent to
+            dodge the fire. We also have a big room full of hard to navigate
+            platforms where you if you fall you have to start over in the room
+            and might land in some fire. This level contains the last 3 fish for
+            the dock worker's quest.
+          </p>
+        </div>
+        <div className="ImgContainer">
+          <img className="aboutImg" src="./RRLevel5.png" alt="" />
         </div>
       </div>
       <div id="Links" className="links">
