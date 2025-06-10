@@ -45,10 +45,7 @@ html {
     grid-template-columns: 1fr 1fr;
 }
 
-.about.left {
-    background-color: #454545;
-    direction: rtl;
-}
+
 
 .aboutText {
     width: 100%;
@@ -112,6 +109,13 @@ html {
     border: none;
 }
 
+.FillerText {
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding-top: 150px;
+}
+
 .links {
     padding: 50px;
     width: 100%;
@@ -150,6 +154,15 @@ html {
 
 .btnIcons {
     width: 25px;
+}
+
+.left {
+    background-color: #454545;
+    direction: rtl;
+}
+
+.right {
+    background-color: #272626;
 }
 
 @media (max-width:1000px) {

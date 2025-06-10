@@ -10,7 +10,13 @@ const RexRunPage = () => {
   return (
     <div>
       <NavBar
-        navItems={["Description", "Technologies Used", "About", "Links"]}
+        navItems={[
+          "Description",
+          "Technologies Used",
+          "About",
+          "Video Demo",
+          "Links",
+        ]}
       />
       <div id="Description" className="header">
         <div className="headerText">
@@ -202,7 +208,13 @@ const RexRunPage = () => {
           <img className="aboutImg" src="./RRLevel5.png" alt="" />
         </div>
       </div>
-      <div id="Links" className="links">
+      <div id="Video Demo" className="VideoDemo right">
+        <h1 className="Title">Video Demo</h1>
+        <div className="video-wrapper">
+          <p className="FillerText">Coming Soon</p>
+        </div>
+      </div>
+      <div id="Links" className="links left">
         <h1 className="Title">Links</h1>
         <div className="btnSection">
           <a
