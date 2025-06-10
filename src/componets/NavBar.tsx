@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./NavBar.css";
 
 interface Props {
@@ -16,22 +17,38 @@ const handleScroll = (
 };
 
 const NavBar = ({ navItems }: Props) => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="navBar">
       <a href="" className="navLink navTitle">
         M.A.S.E
       </a>
-      <div className="navItems">
-        {navItems.map((section) => (
-          <a
-            className="navLink"
-            href=""
-            onClick={(e) => handleScroll(e, section)}
-          >
-            {section}
-          </a>
-        ))}
+
+      <div
+        className={`hamburger ${isOpen ? "open" : ""}`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
+
+      <ul className={`nav-links ${isOpen ? "active" : ""}`}>
+        {navItems.map((section) => (
+          <li>
+            <a
+              className="navLink"
+              href=""
+              onClick={(e) => {
+                handleScroll(e, section);
+                setIsOpen(!isOpen);
+              }}
+            >
+              {section}
+            </a>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

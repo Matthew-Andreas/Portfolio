@@ -7,7 +7,9 @@ import Skill from "../componets/Skill";
 const HomePage = () => {
   return (
     <>
-      <NavBar navItems={["Projects", "Skills", "Experience", "Contact"]} />
+      <NavBar
+        navItems={["Projects", "Skills", "Technical Experience", "Contact Me"]}
+      />
       <div className="HeaderSection">
         <h1 className="Title Site">Matthew Andreas - Software Engineer</h1>
         <p className="PersonalDescription">
@@ -53,7 +55,7 @@ const HomePage = () => {
             ShortDes="This was an image classification(IC) AI model benchmarking website that was done in cooperation with Qualcomm.
             This website would allow the user to compare different IC models to find the best fit for their upcoming projects.
             This website was unique as it allowed the user to input their own image to be classified by a selection of models directly on the website."
-            ProjectLink="/Portfolio/#/ApprAIse"
+            ProjectLink="/#/ApprAIse"
           />
 
           <ProjectCard
@@ -63,7 +65,7 @@ const HomePage = () => {
             ShortDes="This project was a short 2D game where you play as a dinosaur trying to escape an island with an active volcano before it erupts.
             This was my first experience bringing a game to completion, which was an amazing sight to see.
             For this project, we focus on getting a complete game and making it look like a real game."
-            ProjectLink="/Portfolio/#/RexRun"
+            ProjectLink="/#/RexRun"
           />
           <ProjectCard
             TimeFrame="June 3, 2024 - August 23, 2024"
@@ -94,7 +96,7 @@ const HomePage = () => {
           <Skill ImageSrc="./artificial-intelligence.png" SkillName="AI" />
         </div>
       </div>
-      <div id="Experience" className="techExperienceSection">
+      <div id="Technical Experience" className="techExperienceSection">
         <h1 className="Title">Technical Experience</h1>
         <div className="Experiences">
           <ExperienceCard
@@ -111,7 +113,7 @@ const HomePage = () => {
           />
         </div>
       </div>
-      <div id="Contact" className="contactMeSection">
+      <div id="Contact Me" className="contactMeSection">
         <h1 className="Title">Contact Me</h1>
         <Contact
           ImageSrc="./email.png"
