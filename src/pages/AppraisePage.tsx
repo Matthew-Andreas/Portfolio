@@ -256,11 +256,6 @@ const AppraisePage = () => {
             <p className="btnText">GitHub</p>
             <img className="btnIcons" src="./share.png" alt="" />
           </a>
-          <a className="GithubBtn" href="https://appraise-benchmark.com/">
-            <img className="btnIcons" src="./Website.png" alt="" />
-            <p className="btnText">Website</p>
-            <img className="btnIcons" src="./share.png" alt="" />
-          </a>
         </div>
       </div>
     </div>
