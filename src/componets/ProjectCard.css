@@ -7,6 +7,8 @@
 
 .projectCard {
     position: relative;
+    display: flex;
+    flex-direction: column;
     height: 800px;
     max-width: 650px;
     /*min-width: 500px;*/
@@ -14,6 +16,7 @@
     background-color: #ffffff;
     border-radius: 25px;
     justify-items: center;
+    align-items: center;
     box-shadow: 5px 5px rgba(165, 165, 165, 0.5);
     transition: transform 0.3s ease, box-shadow 0.6s ease;
 }
@@ -27,12 +30,14 @@
 .projectTitle {
     text-align: center;
     /*width: 350PX;*/
+    justify-self: center;
 }
 
 .projectTitleBox {
     display: flex;
     height: 80px;
     align-items: center;
+    justify-content: center;
 }
 
 .timeFrame {
@@ -47,23 +52,24 @@
     height: auto;
     margin: 25px 0px;
     border-radius: 25px;
+    justify-self: center;
 }
 
 .shortDes {
     color: #000000;
     font-size: 18px;
     padding: 0px 25px;
-    max-width: 450px;
+    /*max-width: 450px;*/
     margin-bottom: 0;
     text-align: center;
     /*width: 350px;*/
+    justify-self: center;
 }
 
 .learnMoreP {
-    position: absolute;
-    top: 725px;
-    left: 200px;
     display: flex;
+    margin-top: auto;
+    justify-content: center;
 }
 
 .learnMoreP p {

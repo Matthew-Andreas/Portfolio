@@ -37,7 +37,7 @@ const HomePage = () => {
             ShortDes="This was a project where my group found a research paper and implemented their research, as well as other alternative methods. 
             We decided to work with a paper using YOLOv8 to do smoke and fire detection. 
             The two alternative methods we proposed were transfer learning on YOLOv8 and using YOLO12 to get better scores."
-            ProjectLink="#"
+            ProjectLink="#/FireandSmokeDetection"
           />
           <ProjectCard
             TimeFrame="March 28, 2025 - May 4, 2025"
@@ -55,7 +55,7 @@ const HomePage = () => {
             ShortDes="This was an image classification(IC) AI model benchmarking website that was done in cooperation with Qualcomm.
             This website would allow the user to compare different IC models to find the best fit for their upcoming projects.
             This website was unique as it allowed the user to input their own image to be classified by a selection of models directly on the website."
-            ProjectLink="/#/ApprAIse"
+            ProjectLink="#/ApprAIse"
           />
 
           <ProjectCard
@@ -65,7 +65,7 @@ const HomePage = () => {
             ShortDes="This project was a short 2D game where you play as a dinosaur trying to escape an island with an active volcano before it erupts.
             This was my first experience bringing a game to completion, which was an amazing sight to see.
             For this project, we focus on getting a complete game and making it look like a real game."
-            ProjectLink="/#/RexRun"
+            ProjectLink="#/RexRun"
           />
           <ProjectCard
             TimeFrame="June 3, 2024 - August 23, 2024"
