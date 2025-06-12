@@ -1,6 +1,6 @@
 import NavBar from "../componets/NavBar";
 import Skill from "../componets/Skill";
-import "./Appraise.css";
+import "./ProjectPage.css";
 import { useEffect } from "react";
 
 const AppraisePage = () => {
