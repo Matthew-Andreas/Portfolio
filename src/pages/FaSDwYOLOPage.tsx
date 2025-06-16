@@ -38,8 +38,29 @@ const FaSDwYOLOPage = () => {
       <div id="About" className="about right">
         <div className="aboutText">
           <h1>About This Project</h1>
-          <p></p>
-          <p></p>
+          <p>
+            This project was a class project in my Deep Learning class in
+            university. For this project we were given the task of finding a
+            research paper using AI deep learning techniques to solve a real
+            world problem and to implement their technquie. Then we were tasked
+            with coming up with our own deep learning technique to try to solve
+            the same problem in a different way and implement it.
+          </p>
+          <p>
+            For my group's project we decide to follow a paper on fire and smoke
+            detection using object detection. For the object detection
+            algorithim they tried out mutiple versions of YOLO from version 6 to
+            8 and collected very good results which you can see below. Our plan
+            for our first alternative method was to try to use a transfer
+            learning strategy with the YOLOv8 models to try to increase the
+            recall of the results. For our second alternative method we decided
+            to look at the newer versions of YOLO which was YOLOv12 and try to
+            use those models to see if it increased the recall in the results.
+            We wanted to focus on recall since it is a statistic that focuses on
+            false negatives meaning the fire/smoke is missed/not detected. We
+            did this since fires being missed could lead to bigger fires that
+            cause more damages and greater loss of life.
+          </p>
         </div>
         <div className="ImgContainer">
           <img className="aboutImg" src="./DeepLearning.png" alt="" />
@@ -48,7 +69,13 @@ const FaSDwYOLOPage = () => {
       <div className="about left">
         <div className="aboutText">
           <h1>Paper's Results</h1>
-          <p></p>
+          <p>
+            These are the research papers results for all the models they worked
+            with. They were able to get excellent scores reaching up into the
+            90's in some areas but we were not able recreate these results even
+            using their exact specifications in their paper.
+          </p>
+          <p>Explain what each column means</p>
         </div>
         <div className="ImgContainer">
           <img className="aboutImg" src="./yoloOGPaperResults.png" alt="" />
