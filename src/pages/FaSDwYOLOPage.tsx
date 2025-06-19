@@ -200,7 +200,15 @@ const FaSDwYOLOPage = () => {
             Comparison Between YOLOv12 and Our Implementation of the Paper's
             Method
           </h1>
-          <p></p>
+          <p>
+            As we compare the second alternative method's results to our
+            reimplementation's results we can see that there is a big jump in
+            highest metrics in each column. Looking at recall which was the most
+            important metric to our project we can see we had a 0.049 increase
+            which is pretty amazing. We can also see that the YOLOv8n had a huge
+            jump in all it's metrics which was interesting to see since it was
+            the smallest model and still had the highest metric in two columns.
+          </p>
         </div>
         <div className="ImgContainer">
           <img className="aboutImg" src="./Comp12VS8.png" alt="" />
@@ -218,7 +226,13 @@ const FaSDwYOLOPage = () => {
           <img className="aboutImg" src="./Comp12VSTL.png" alt="" />
         </div>
       </div>
-      <div id="Links" className="links left">
+      <div className="conclusion left">
+        <div className="aboutText">
+          <h1>Conclusion</h1>
+          <p></p>
+        </div>
+      </div>
+      <div id="Links" className="links ">
         <h1 className="Title">Links</h1>
         <div className="btnSection">
           <a
