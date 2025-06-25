@@ -51,15 +51,29 @@ const FaSDwYOLOPage = () => {
             detection using object detection. For the object detection
             algorithim they tried out mutiple versions of YOLO from version 6 to
             8 and collected very good results which you can see below. Our plan
-            for our first alternative method was to try to use a transfer
-            learning strategy with the YOLOv8 models to try to increase the
-            recall of the results. For our second alternative method we decided
-            to look at the newer versions of YOLO which was YOLOv12 and try to
-            use those models to see if it increased the recall in the results.
+            was to compare our alternative methods to the YOLOv8 results from
+            the paper.
+          </p>
+          <p>
+            The plan for our first alternative method was to try to use a
+            transfer learning strategy with the YOLOv8 models to try to increase
+            the recall of the results. This method did increase most of our
+            metrics for each model but not by a substanial margin.
+          </p>
+          <p>
+            For our second alternative method we decided to look at the newer
+            versions of YOLO which was YOLOv12 and try to use those models to
+            see if it increased the recall in the results. This method showed a
+            big increase in all of our metrics execept for precision which only
+            had a slight increase.
+          </p>
+          <p>
             We wanted to focus on recall since it is a statistic that focuses on
             false negatives meaning the fire/smoke is missed/not detected. We
             did this since fires being missed could lead to bigger fires that
-            cause more damages and greater loss of life.
+            cause more damages and greater loss of life. Too learn even more you
+            can see the results and comparisons below or go down to the links
+            section to read our paper we wrote on the projects results.
           </p>
         </div>
         <div className="ImgContainer">
@@ -220,26 +234,32 @@ const FaSDwYOLOPage = () => {
             Comparison Between YOLOv12 and Transfer Learning(TL) on YOLOv8
             Models
           </h1>
-          <p></p>
+          <p>
+            Then we can compare the alternate method using the YOLOv12 models to
+            the alternate method using transfer learning on YOLOcv8 models.
+            Which as we can see in most columns the YOLOv12 models do better
+            then the TL YOLOv8 models but in precision we can see that the YOLOl
+            and YOLOx do better in TL YOLOv8 than YOLOv12. We can also see that
+            precision itself didn't really increase by that much no matter what
+            we did but the other metrics would increase by a lot with are other
+            methods. In this table we can even see that there was a big increase
+            of .11 in the recall of the model yolox when going from TL YOLOv8 to
+            YOLOv12. Too see more check out our paper we wrote on this projects
+            results down below.
+          </p>
         </div>
         <div className="ImgContainer">
           <img className="aboutImg" src="./Comp12VSTL.png" alt="" />
         </div>
       </div>
-      <div className="conclusion left">
-        <div className="aboutText">
-          <h1>Conclusion</h1>
-          <p></p>
-        </div>
-      </div>
-      <div id="Links" className="links ">
+      <div id="Links" className="links left">
         <h1 className="Title">Links</h1>
         <div className="btnSection">
           <a
             className="GithubBtn"
             href="https://www.mdpi.com/2571-6255/7/4/135"
           >
-            <img className="btnIcons" src="./github.png" alt="" />
+            <img className="btnIcons" src="./file.png" alt="" />
             <p className="btnText">Research Paper</p>
             <img className="btnIcons" src="./share.png" alt="" />
           </a>
@@ -247,7 +267,7 @@ const FaSDwYOLOPage = () => {
             className="GithubBtn"
             href="https://docs.google.com/document/d/1j-XH-NOwJh-ArVPh15hGFftUKJcD6UCRAnE2PmuHH1g/edit?usp=sharing"
           >
-            <img className="btnIcons" src="./github.png" alt="" />
+            <img className="btnIcons" src="./file.png" alt="" />
             <p className="btnText">Our Paper</p>
             <img className="btnIcons" src="./share.png" alt="" />
           </a>
