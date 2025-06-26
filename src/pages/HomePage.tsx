@@ -28,7 +28,7 @@ const HomePage = () => {
             ShortDes="This was a short project which you are looking at the results of right now. 
             I wanted a website to showcase my current and previous projects, skills, and technical work experience.
             This would help to showcase my skills to future employers as well as show me where I have come from."
-            ProjectLink="https://github.com/Matthew-Andreas/MatthewAndreas.github.io"
+            ProjectLink="#/PortfolioWebsite"
           />
           <ProjectCard
             TimeFrame="March 10, 2025 - May 10, 2025"
@@ -46,7 +46,7 @@ const HomePage = () => {
             ShortDes="This is a short 3D platformer where you play as a slime trying to reach the star station in the sky. 
             There are 4 different areas as you make the climb, each with increasing difficulty. 
             This project focused on having a new gaming experience each run by having the platforms randomly generated on each playthrough. "
-            ProjectLink="https://github.com/adoante/3d-game"
+            ProjectLink="#/Slime"
           />
           <ProjectCard
             TimeFrame="January 29, 2025 - May 2, 2025"
@@ -74,7 +74,7 @@ const HomePage = () => {
             ShortDes="This project was an internship where we built a website and database from scratch.
             This project's focus was to build a website full of entrepreneurial resources and display it in an easily navigable webpage.
             We created a table that displayed all of these resources in one place and provided a filter system so the user could find exactly the resource they were looking for."
-            ProjectLink="https://onehubsd.org/"
+            ProjectLink="#/ONEProject"
           />
         </div>
       </div>

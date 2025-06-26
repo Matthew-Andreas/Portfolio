@@ -24,6 +24,10 @@ html {
     border-radius: 25px;
 }
 
+.portfolio {
+    border: solid 4px #454545;
+}
+
 .techUsed {
     text-align: center;
     background-color: #383838;
