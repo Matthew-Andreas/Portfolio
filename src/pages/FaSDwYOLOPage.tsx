@@ -259,25 +259,25 @@ const FaSDwYOLOPage = () => {
             className="GithubBtn"
             href="https://www.mdpi.com/2571-6255/7/4/135"
           >
-            <img className="btnIcons" src="./file.png" alt="" />
-            <p className="btnText">Research Paper</p>
             <img className="btnIcons" src="./share.png" alt="" />
+            <p className="btnText">Research Paper</p>
+            <img className="btnIcons" src="./file.png" alt="" />
           </a>
           <a
             className="GithubBtn"
             href="https://docs.google.com/document/d/1j-XH-NOwJh-ArVPh15hGFftUKJcD6UCRAnE2PmuHH1g/edit?usp=sharing"
           >
-            <img className="btnIcons" src="./file.png" alt="" />
-            <p className="btnText">Our Paper</p>
             <img className="btnIcons" src="./share.png" alt="" />
+            <p className="btnText">Our Paper</p>
+            <img className="btnIcons" src="./file.png" alt="" />
           </a>
           <a
             className="GithubBtn"
             href="https://github.com/Matthew-Andreas/Rex-Run"
           >
-            <img className="btnIcons" src="./github.png" alt="" />
-            <p className="btnText">GitHub</p>
             <img className="btnIcons" src="./share.png" alt="" />
+            <p className="btnText">GitHub</p>
+            <img className="btnIcons" src="./github.png" alt="" />
           </a>
         </div>
       </div>

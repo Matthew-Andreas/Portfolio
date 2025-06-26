@@ -221,9 +221,9 @@ const RexRunPage = () => {
             className="GithubBtn"
             href="https://github.com/Matthew-Andreas/Rex-Run"
           >
-            <img className="btnIcons" src="./github.png" alt="" />
-            <p className="btnText">GitHub</p>
             <img className="btnIcons" src="./share.png" alt="" />
+            <p className="btnText">GitHub</p>
+            <img className="btnIcons" src="./github.png" alt="" />
           </a>
         </div>
       </div>
