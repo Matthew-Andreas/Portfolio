@@ -38,29 +38,31 @@ const PortfolioWebsitePage = () => {
       <div id="About" className="about right">
         <div className="aboutText">
           <h1>About This Project</h1>
-          <p></p>
-          <p></p>
+          <p>
+            This was a personal project that I wanted to make so I could
+            showcase my projects that I have previously worked on as well as
+            what projects I am working on currently. This will also be a digital
+            timeline for myself to see where I started and where I am going to
+            show myself how much I have improved as time moves on.
+          </p>
+          <p>
+            My plan is to have this website continue to grow throughout the
+            years and to have a big repertoire towards the end of my career with
+            many cool projects I completed using all kinds of different
+            technologies. Each of my projects will get a card with a picture and
+            a short description then if you click on it you can go to a page
+            deticated to going a little more indepth on the project and
+            sometimes getting to look at it online, in a video, or even it's
+            code.
+          </p>
+          <p>
+            This website will also contain information about my skills as a
+            programmer as I go through my career and my technical experience as
+            I work at different companies.
+          </p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./test.gif" alt="" />
-        </div>
-      </div>
-      <div className="about left">
-        <div className="aboutText">
-          <h1>Main Hub</h1>
-          <p></p>
-        </div>
-        <div className="ImgContainer">
-          <img className="aboutImg" src="./RRHub.png" alt="" />
-        </div>
-      </div>
-      <div className="about right">
-        <div className="aboutText">
-          <h1>Chef</h1>
-          <p></p>
-        </div>
-        <div className="ImgContainer">
-          <img className="aboutImg" src="./RRChef.png" alt="" />
+          <img className="aboutImg" src="./AboutPortfolio.png" alt="" />
         </div>
       </div>
       <div id="Links" className="links left">

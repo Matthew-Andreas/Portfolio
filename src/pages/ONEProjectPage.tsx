@@ -45,7 +45,7 @@ const ONEProjectPage = () => {
           <p></p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./test.gif" alt="" />
+          <img className="aboutImg" src="./AboutPortfolio.png" alt="" />
         </div>
       </div>
       <div className="about left">
