@@ -17,10 +17,11 @@ const SlimePage = () => {
           <h1>Slime</h1>
           <p>
             This is a short 3D platformer where you play as a slime trying to
-            reach the star station in the sky. There are 4 different areas as
-            you make the climb, each with increasing difficulty. This project
-            focused on having a new gaming experience each run by having the
-            platforms randomly generated on each playthrough.
+            reach the star station in the sky. There are 4 different areas you
+            traverse through as you make the climb, each with increasing
+            difficulty. This project focused on having a new gaming experience
+            each run by having the platforms randomly generated on each
+            playthrough.
           </p>
         </div>
         <img className="headerImg" src="./SlimeGame.png" alt="" />
@@ -35,29 +36,35 @@ const SlimePage = () => {
       <div id="About" className="about right">
         <div className="aboutText">
           <h1>About This Project</h1>
-          <p></p>
+          <p>
+            This project was a class project in my Game Design at university.
+            This class was given the task of building a 3D game from scratch but
+            you were allowed to use any premade assests you could find. For this
+            project we also had to include an element that was randomized that
+            changed the experince for each play through.
+          </p>
           <p></p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./test.gif" alt="" />
+          <img className="aboutImg" src="./SlimeGame.png" alt="" />
         </div>
       </div>
       <div className="about left">
         <div className="aboutText">
-          <h1>Main Hub</h1>
+          <h1></h1>
           <p></p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./RRHub.png" alt="" />
+          <img className="aboutImg" src="./.png" alt="" />
         </div>
       </div>
       <div className="about right">
         <div className="aboutText">
-          <h1>Chef</h1>
+          <h1></h1>
           <p></p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./RRChef.png" alt="" />
+          <img className="aboutImg" src="./.png" alt="" />
         </div>
       </div>
       <div id="Links" className="links left">
