@@ -26,8 +26,8 @@ const HomePage = () => {
             ProjectTitle="Portfolio Website"
             ImageSrc="./PortfolioImg.png"
             ShortDes="This was a short project which you are looking at the results of right now. 
-            I wanted a website to showcase my current and previous projects, skills, and technical work experience.
-            This would help to showcase my skills to future employers as well as show me where I have come from."
+            I wanted a website to showcase my current and previous projects, skills, and technical work experience. 
+            This would help showcase my skills to future employers, as well as demonstrate my progress and growth."
             ProjectLink="#/PortfolioWebsite"
           />
           <ProjectCard
@@ -36,7 +36,7 @@ const HomePage = () => {
             ImageSrc="./DeepLearning2.png"
             ShortDes="This was a project where my group found a research paper and implemented their research, as well as other alternative methods. 
             We decided to work with a paper using YOLOv8 to do smoke and fire detection. 
-            The two alternative methods we proposed were transfer learning on YOLOv8 and using YOLO12 to get better scores."
+            The two alternative methods we proposed were transfer learning on YOLOv8 and using YOLOv12 to get better scores."
             ProjectLink="#/FireandSmokeDetection"
           />
           <ProjectCard
@@ -73,7 +73,7 @@ const HomePage = () => {
             ImageSrc="./OneProject2.png"
             ShortDes="This project was an internship where we built a website and database from scratch.
             This project's focus was to build a website full of entrepreneurial resources and display it in an easily navigable webpage.
-            We created a table that displayed all of these resources in one place and provided a filter system so the user could find exactly the resource they were looking for."
+            We created a table that displayed all these resources in one place and provided a filter system, allowing users to find exactly the resource they were looking for."
             ProjectLink="#/ONEProject"
           />
         </div>

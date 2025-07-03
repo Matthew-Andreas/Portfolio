@@ -20,7 +20,7 @@ const FaSDwYOLOPage = () => {
             implemented their research, as well as other alternative methods. We
             decided to work with a paper using YOLOv8 to do smoke and fire
             detection. The two alternative methods we proposed were transfer
-            learning on YOLOv8 and using YOLO12 to get better scores.
+            learning on YOLOv8 and using YOLOv12 to get better scores.
           </p>
         </div>
         <img className="headerImg" src="./DeepLearning.png" alt="" />
@@ -39,41 +39,41 @@ const FaSDwYOLOPage = () => {
         <div className="aboutText">
           <h1>About This Project</h1>
           <p>
-            This project was a class project in my Deep Learning class in
-            university. For this project we were given the task of finding a
-            research paper using AI deep learning techniques to solve a real
-            world problem and to implement their technquie. Then we were tasked
-            with coming up with our own deep learning technique to try to solve
-            the same problem in a different way and implement it.
+            This project was a class project in my Deep Learning class at
+            university. For this project, we were given the task of finding a
+            research paper using AI deep learning techniques to solve a
+            real-world problem and to implement their technique. Then we were
+            tasked with coming up with our own deep learning technique to try to
+            solve the same problem in a different way and implement it.
           </p>
           <p>
-            For my group's project we decide to follow a paper on fire and smoke
-            detection using object detection. For the object detection
-            algorithim they tried out mutiple versions of YOLO from version 6 to
-            8 and collected very good results which you can see below. Our plan
-            was to compare our alternative methods to the YOLOv8 results from
-            the paper.
+            For my group's project, we decided to follow a paper on fire and
+            smoke detection using object detection. For the object detection
+            algorithm, they tried out multiple versions of YOLO from version 6
+            to 8 and collected very good results, which you can see below. We
+            planned to compare our alternative methods to the YOLOv8 results
+            from the paper.
           </p>
           <p>
             The plan for our first alternative method was to try to use a
             transfer learning strategy with the YOLOv8 models to try to increase
             the recall of the results. This method did increase most of our
-            metrics for each model but not by a substanial margin.
+            metrics for each model, but not by a substantial margin.
           </p>
           <p>
-            For our second alternative method we decided to look at the newer
-            versions of YOLO which was YOLOv12 and try to use those models to
-            see if it increased the recall in the results. This method showed a
-            big increase in all of our metrics execept for precision which only
-            had a slight increase.
+            For our second alternative method, we decided to look at the newer
+            versions of YOLO, which were the YOLOv12 models, and try to use
+            those models to see if they increased the recall in the results.
+            This method showed a big increase in all of our metrics except for
+            precision, which only had a slight increase.
           </p>
           <p>
             We wanted to focus on recall since it is a statistic that focuses on
-            false negatives meaning the fire/smoke is missed/not detected. We
+            false negatives, meaning the fire/smoke is missed/not detected. We
             did this since fires being missed could lead to bigger fires that
-            cause more damages and greater loss of life. Too learn even more you
+            cause more damage and greater loss of life. To learn even more, you
             can see the results and comparisons below or go down to the links
-            section to read our paper we wrote on the projects results.
+            section to read our paper we wrote on the project's results.
           </p>
         </div>
         <div className="ImgContainer">
@@ -84,29 +84,29 @@ const FaSDwYOLOPage = () => {
         <div className="aboutText">
           <h1>Paper's Results</h1>
           <p>
-            These are the research papers results for all the models they worked
-            with. They were able to get excellent scores reaching up into the
-            90's in some areas but we were not able recreate these results even
-            using their exact specifications in their paper.
+            These are the research paper’s results for all the models they
+            worked with. They were able to get excellent scores reaching up into
+            the 90s in some areas, but we were not able to recreate these
+            results even using their exact specifications in their paper.
           </p>
           <p>
             There are 4 attributes for a model that we look at to see how
             accurate the model is at correctly determining whether there is
             fire/smoke or not in an image and where it is in the image. The
-            first attribute is precision which focuses on false postives which
-            in this case would be the model saying there is fire/smoke when
-            there is not one in the image. The next attribute is recall which
-            focuses on false negatives which is where the model says there is no
-            fire/smoke in the image when there actually is. This is the
-            attribute we focused on improving the most since if a fire was not
-            detected it could lead to a bigger fire that cause more damages and
-            greater loss of life. Then we have the attribute mAP:50 which uses
-            both precision and recall, averaged across the 3 classes of fire,
-            smoke and background, while using a fixed IoU threshold of
+            first attribute is precision, which focuses on false positives,
+            which in this case would be the model saying there is fire/smoke
+            when there is not one in the image. The next attribute is recall,
+            which focuses on false negatives, which is where the model says
+            there is no fire/smoke in the image when there actually is. This is
+            the attribute we focused on improving the most, since if a fire was
+            not detected, it could lead to a bigger fire that could cause more
+            damage and greater loss of life. Then we have the attribute mAP:50,
+            which uses both precision and recall, averaged across the 3 classes
+            of fire, smoke, and background, while using a fixed IoU threshold of
             0.50(i.e., there is a 50% overlap between the predicted and true
-            boxes which you can see in the above image). Lastly we got the
-            attribute mAP:50-95 which is the same as the last but goes through
-            IoU threshold .50 to .95 in .05 increments and averages them
+            boxes which you can see in the above image). Lastly, we got the
+            attribute mAP:50-95, which is the same as the last but goes through
+            IoU thresholds from .50 to .95 in .05 increments and averages them
             together.
           </p>
         </div>
@@ -118,10 +118,10 @@ const FaSDwYOLOPage = () => {
         <div className="aboutText">
           <h1>Our Implementation of the Paper's Method</h1>
           <p>
-            For this project we reimplement the paper's method and after
-            following every parameter in the paper we got these results for
-            YOLOv8 models. For our results you can see that the YOLOv8s does the
-            best in most of the metrics and YOLOv8x got the best in the
+            For this project, we reimplemented the paper's method, and after
+            following every parameter in the paper, we got these results for
+            YOLOv8 models. For our results, you can see that YOLOv8s does the
+            best in most of the metrics, and YOLOv8x gets the best in the
             precision metric.
           </p>
         </div>
@@ -134,18 +134,18 @@ const FaSDwYOLOPage = () => {
           <h1>Comparison Between Our Implementation and the Paper's</h1>
           <p>
             As we compare our implementation to the paper's we can see that
-            there is a big difference in the metrics but we followed every
+            there is a big difference in the metrics, but we followed every
             parameter in the paper and still ended up with the lower scores.
-            However, across all of our alternative methods we seemed to be
-            relatively close with our implementation's metrics and we never saw
-            the scores as high as the orginal paper. So we decide to compare the
-            alternative methods metrics to our reimplementation of the paper's
-            method instead of the orignal metrics. Another thing you can see
-            when comparing these metrics is that for their models YOLOv8x did
-            the best in every category but in our data YOLOv8s did the best in
-            most categories which we found very interesting. This trend of small
-            models doing better then the larger ones can also be seen through
-            out the rest of our methods.
+            However, across all of our alternative methods, we seemed to be
+            relatively close with our implementation's metrics, and we never saw
+            the scores as high as the original paper. So we decided to compare
+            the alternative methods' metrics to our reimplementation of the
+            paper's method instead of the original metrics. Another thing you
+            can see when comparing these metrics is that for their models,
+            YOLOv8x did the best in every category, but in our data, YOLOv8s did
+            the best in most categories, which we found very interesting. This
+            trend of small models doing better than the larger ones can also be
+            seen throughout the rest of our methods.
           </p>
         </div>
         <div className="ImgContainer">
@@ -158,12 +158,12 @@ const FaSDwYOLOPage = () => {
             Alternative Method Using Transfer Learning(TL) on YOLOv8 Models
           </h1>
           <p>
-            This is our first alternative method's results. For this method we
+            This is our first alternative method's results. For this method, we
             used the same base models as the paper but removed the last layer of
-            the model or the head and replaced with a custmized layer for this
-            specific problem. We also froze all of the layers execept the new
-            head for the first 10 epochs of training to train the new head and
-            then unfroze all the layers for another 290 epoch.
+            the model, or the head, and replaced it with a customized layer for
+            this specific problem. We also froze all of the layers except the
+            new head for the first 10 epochs of training to train the new head,
+            and then unfroze all the layers for another 290 epochs.
           </p>
         </div>
         <div className="ImgContainer">
@@ -178,14 +178,14 @@ const FaSDwYOLOPage = () => {
           </h1>
           <p>
             As we compare our first alternative method to the reimplementation
-            of the paper's method we can see in the metrics recall, mAP:50, and
-            mAP:50-95 were better in the new alternative method than the old
-            method. However, for percision even though we had many of the models
-            perform better in the new method none of the beat the highest
-            precision in the old method. Also you can see that for the highest
-            of each column they didn't increase by too much since at most one
-            increased by .012, that column was recall which was our focus. So we
-            didn't see too much of an improvement.
+            of the paper's method, we can see that the metrics recall, mAP:50,
+            and mAP:50-95 were better in the new alternative method than in the
+            old method. However, for precision, even though we had many of the
+            models perform better in the new method, none of them beat the
+            highest precision in the old method. Also, you can see that for the
+            highest of each column, they didn't increase by too much, since at
+            most one increased by .012, that column was recall, which was our
+            focus. So we didn't see too much of an improvement.
           </p>
         </div>
         <div className="ImgContainer">
@@ -196,12 +196,12 @@ const FaSDwYOLOPage = () => {
         <div className="aboutText">
           <h1>Alternative Method Using YOLOv12 Models</h1>
           <p>
-            This is our second alternative where we used the YOLOv12 models with
-            all the same metrics from the paper to see if the newer versions of
-            these models were better. The interesting thing we found with this
-            data is that the highest metrics in each columns seem to be in
-            different models execept for percision and mAP:50 which were both in
-            the YOLOv8n.
+            This is our second alternative method, where we used the YOLOv12
+            models with all the same metrics from the paper to see if the newer
+            versions of these models were better. The interesting thing we found
+            with this data is that the highest metrics in each column seem to be
+            in different models, except for precision and mAP:50, which were
+            both in the YOLOv8n.
           </p>
         </div>
         <div className="ImgContainer">
@@ -216,12 +216,13 @@ const FaSDwYOLOPage = () => {
           </h1>
           <p>
             As we compare the second alternative method's results to our
-            reimplementation's results we can see that there is a big jump in
-            highest metrics in each column. Looking at recall which was the most
-            important metric to our project we can see we had a 0.049 increase
-            which is pretty amazing. We can also see that the YOLOv8n had a huge
-            jump in all it's metrics which was interesting to see since it was
-            the smallest model and still had the highest metric in two columns.
+            reimplementation's results, we can see that there is a big jump in
+            the highest metrics in each column. Looking at recall, which was the
+            most important metric to our project, we can see we had a 0.049
+            increase, which is pretty amazing. We can also see that the YOLOv8n
+            had a huge jump in all its metrics, which was interesting to see
+            since it was the smallest model and still had the highest metric in
+            two columns.
           </p>
         </div>
         <div className="ImgContainer">
@@ -236,16 +237,16 @@ const FaSDwYOLOPage = () => {
           </h1>
           <p>
             Then we can compare the alternate method using the YOLOv12 models to
-            the alternate method using transfer learning on YOLOcv8 models.
-            Which as we can see in most columns the YOLOv12 models do better
-            then the TL YOLOv8 models but in precision we can see that the YOLOl
-            and YOLOx do better in TL YOLOv8 than YOLOv12. We can also see that
-            precision itself didn't really increase by that much no matter what
-            we did but the other metrics would increase by a lot with are other
-            methods. In this table we can even see that there was a big increase
-            of .11 in the recall of the model yolox when going from TL YOLOv8 to
-            YOLOv12. Too see more check out our paper we wrote on this projects
-            results down below.
+            the alternate method using transfer learning on YOLOv8 models. As we
+            can see in most columns, the YOLOv12 models do better than the TL
+            YOLOv8 models, but in precision, we can see that the YOLOl and YOLOx
+            do better in TL YOLOv8 than YOLOv12. We can also see that precision
+            itself didn't really increase by that much, no matter what we did,
+            but the other metrics would increase by a lot with are other
+            methods. In this table, we can even see that there was a big
+            increase of .11 in the recall of the model yolox when going from TL
+            YOLOv8 to YOLOv12. To see more, check out our paper we wrote on this
+            project's results down below.
           </p>
         </div>
         <div className="ImgContainer">
@@ -271,10 +272,7 @@ const FaSDwYOLOPage = () => {
             <p className="btnText">Our Paper</p>
             <img className="btnIcons" src="./file.png" alt="" />
           </a>
-          <a
-            className="GithubBtn"
-            href="https://github.com/Matthew-Andreas/Rex-Run"
-          >
+          <a className="GithubBtn" href="">
             <img className="btnIcons" src="./share.png" alt="" />
             <p className="btnText">GitHub</p>
             <img className="btnIcons" src="./github.png" alt="" />

@@ -19,8 +19,8 @@ const ONEProjectPage = () => {
             This project was an internship where we built a website and database
             from scratch. This project's focus was to build a website full of
             entrepreneurial resources and display it in an easily navigable
-            webpage. We created a table that displayed all of these resources in
-            one place and provided a filter system so the user could find
+            webpage. We created a table that displayed all these resources in
+            one place and provided a filter system, allowing users to find
             exactly the resource they were looking for.
           </p>
         </div>
@@ -42,34 +42,34 @@ const ONEProjectPage = () => {
         <div className="aboutText">
           <h1>About This Project</h1>
           <p>
-            This was an amazing progect where I was able to work together with a
+            This was an amazing project where I was able to work together with a
             team to build a product that would assist many young and struggling
-            entrepenurers to find the resources that they need and that apply to
-            them and their entrepenureal venture. So the main part of this
+            entrepreneurs to find the resources that they need and that apply to
+            them and their entrepreneurial venture. So the main part of this
             project was to build a website where the user could easily filter
             through our 300+ resources and find the resources that were right
             for them.
           </p>
           <p>
-            On the image to the right you can see the home page where the user
-            can view these resources organized in a table with 10 rows. We also
-            wanted our user's browsing experience to be customizable so we
-            allowed them to see 10, 25, or 50 rows at once and if the user
-            presses the button show all columns they can see more information
-            about each resource. Then on the left side of the image we have
-            filters where the user can open the drop downs and select which
-            filters they want to apply to the resource so they can slim the
-            amount of resources they will have to search through to find the one
-            they need.
+            In the image to the you can see the home page where the user can
+            view these resources organized in a table with 10 rows. We also
+            wanted our users' browsing experience to be customizable, so we
+            allowed them to see 10, 25, or 50 rows at once, and if the user
+            presses the button to show all columns, they can see more
+            information about each resource. Then on the left side of the image,
+            we have filters where the user can open the drop-downs and select
+            which filters they want to apply to the resource so they can slim
+            down the amount of resources they will have to search through to
+            find the one they need.
           </p>
           <p>
             My contributions for this project were building the frontend of the
-            website based on the designs I recieved and then connecting my
+            website based on the designs I received and then connecting my
             frontend to a database I created in phpMyAdmin with all 300+
             resources using PHP and SQL. This was my first time building a
-            website from scratch and it turned out pretty good. We got a home
-            page with a catelog(seen on the right) and almost every other page
-            is fully designed in the frontend.
+            website from scratch, and it turned out pretty good. We got a home
+            page with a catalog(seen in the image), and almost every other page
+            has a fully designed frontend.
           </p>
         </div>
         <div className="ImgContainer">
@@ -84,12 +84,12 @@ const ONEProjectPage = () => {
             We also created a page with some curated questions so that people
             could read through and find if they have any of the same questions
             as posed on this page. If they find information that they would like
-            to see resources for then they can check the box and press submit
-            and be taken to a slimmed down section of the resources that help
+            to see resources for, then they can check the box and press submit,
+            and be taken to a slimmed-down section of the resources that help
             provide the information they are looking for.
           </p>
           <p>
-            To see more of the website click the link button down below and
+            To see more of the website, click the link button down below and
             explore the website.
           </p>
         </div>

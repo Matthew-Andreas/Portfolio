@@ -40,20 +40,19 @@ const PortfolioWebsitePage = () => {
           <h1>About This Project</h1>
           <p>
             This was a personal project that I wanted to make so I could
-            showcase my projects that I have previously worked on as well as
+            showcase my projects that I have previously worked on, as well as
             what projects I am working on currently. This will also be a digital
             timeline for myself to see where I started and where I am going to
             show myself how much I have improved as time moves on.
           </p>
           <p>
-            My plan is to have this website continue to grow throughout the
-            years and to have a big repertoire towards the end of my career with
-            many cool projects I completed using all kinds of different
-            technologies. Each of my projects will get a card with a picture and
-            a short description then if you click on it you can go to a page
-            deticated to going a little more indepth on the project and
-            sometimes getting to look at it online, in a video, or even it's
-            code.
+            I plan to have this website continue to grow throughout the years
+            and to have a big repertoire towards the end of my career, with many
+            cool projects I completed using all kinds of different technologies.
+            Each of my projects will get a card with a picture and a short
+            description, then if you click on it, you can go to a page dedicated
+            to going a little more in-depth on the project and sometimes getting
+            to look at it online, in a video, or even its code.
           </p>
           <p>
             This website will also contain information about my skills as a
