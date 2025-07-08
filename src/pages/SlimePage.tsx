@@ -41,12 +41,26 @@ const SlimePage = () => {
             This class was given the task of building a 3D game from scratch but
             you were allowed to use any premade assests you could find. For this
             project we also had to include an element that was randomized that
-            changed the experince for each play through.
+            changed the experince for each play through. This was to give the
+            class new challanges of 3D game developement with an added
+            requirement of randomization.
           </p>
-          <p></p>
+          <p>
+            For my groups game we decided we wanted to do a 3D platformer where
+            you climb randomized platforms that bring you to space. However, we
+            felt that just arriving at space would be a little underwhelming so
+            we built a space station called the Star Station that is the goal to
+            reach for the game. We decided to use a{" "}
+            <a href="https://mcsteeg.itch.io/slime">slime</a> for our main
+            character and mushroom men for our shop keepers along the way. As
+            you climb up the platforms you can collect hearts for more health
+            and gems to buy upgrades at the shops along the way. The more hearts
+            you have and the faster you get to the top will determine your score
+            and overall grade for your playthrough.
+          </p>
         </div>
         <div className="ImgContainer">
-          <img className="aboutImg" src="./SlimeGame.png" alt="" />
+          <img className="aboutImg" src="./Slime.gif" alt="" />
         </div>
       </div>
       <div className="about left">
