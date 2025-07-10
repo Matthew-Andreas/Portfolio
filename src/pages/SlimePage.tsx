@@ -72,13 +72,10 @@ const SlimePage = () => {
           <img className="aboutImg" src="./.png" alt="" />
         </div>
       </div>
-      <div className="about right">
-        <div className="aboutText">
-          <h1></h1>
-          <p></p>
-        </div>
-        <div className="ImgContainer">
-          <img className="aboutImg" src="./.png" alt="" />
+      <div id="Video Demo" className="VideoDemo right">
+        <h1 className="Title">Video Demo</h1>
+        <div className="video-wrapper">
+          <p className="FillerText">Coming Soon</p>
         </div>
       </div>
       <div id="Links" className="links left">

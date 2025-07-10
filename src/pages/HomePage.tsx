@@ -109,7 +109,7 @@ const HomePage = () => {
             This website was meant to be a resource hub for entrepreneurs to find resources that could help them succeed in their goals.
             This website allowed these entrepreneurs to filter through a big table of resources to find the right resource for them.
             This project was proposed to help the community and be a resource to help struggling entrepreneurs around the globe."
-            WorkLink="https://onehubsd.org/"
+            WorkLink="#/ONEProject"
           />
         </div>
       </div>

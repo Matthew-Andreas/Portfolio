@@ -272,7 +272,10 @@ const FaSDwYOLOPage = () => {
             <p className="btnText">Our Paper</p>
             <img className="btnIcons" src="./file.png" alt="" />
           </a>
-          <a className="GithubBtn" href="">
+          <a
+            className="GithubBtn"
+            href="https://github.com/Matthew-Andreas/Fire-and-Smoke-Detection"
+          >
             <img className="btnIcons" src="./share.png" alt="" />
             <p className="btnText">GitHub</p>
             <img className="btnIcons" src="./github.png" alt="" />
